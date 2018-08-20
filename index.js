@@ -1,1 +1,18 @@
 // Write your solution in this file!
+const driver = {
+  firstName:'Neha',
+  lastName:'Chopade',
+  age:25,
+  city:'Delhi'
+}
+
+function updateDriverWithKeyAndValue(driver, key, value)
+{
+  const copy = Object.assign ({}, driver,{[key]:value});
+  return copy;
+}
+
+function destructivelyUpdateDriverWithKeyAndValue(driver, key, value)
+{
+  
+}
