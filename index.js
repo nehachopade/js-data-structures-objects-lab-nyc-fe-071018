@@ -22,5 +22,23 @@ function deleteFromDriverByKey(driver,key)
   const copy = Object.assign({},driver);
   delete copy.key;
   return copy;
-  
 }
+
+/*describe('deleteFromDriverByKey(driver, key)', function () {
+    it('deletes `key` from a clone of driver and returns the new driver (it is non-destructive)', function () {
+      let newdriver = deleteFromDriverByKey(driver, 'name');
+
+      expect(newdriver['name']).to.equal(undefined);
+    });
+
+    it('does not modify the original driver (it is non-destructive)', function () {
+      deleteFromDriverByKey(driver, 'name');
+
+      expect(driver['name']).to.equal('Sam');
+    });
+  });
+*/
+
+
+
+
