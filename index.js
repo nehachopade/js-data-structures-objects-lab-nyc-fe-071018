@@ -22,5 +22,4 @@ function deleteFromDriverByKey(driver, key)
   let copy = Object.assign({},driver);
   delete copy.key;
   return copy;
-  
 }
