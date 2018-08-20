@@ -23,7 +23,7 @@ function deleteFromDriverByKey(driver,key)
   delete copy.key;
   return copy;
 }
-function destructivelyDeleteFromDriverByKey(driver, key)
+
 
 
 
