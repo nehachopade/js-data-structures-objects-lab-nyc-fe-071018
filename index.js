@@ -21,7 +21,7 @@ function deleteFromDriverByKey(driver,key)
 {
   const copy = Object.assign({},driver);
   delete copy[key];
-  return copy;
+  return copy&&driver
 }
 
 /*describe('deleteFromDriverByKey(driver, key)', function () {
